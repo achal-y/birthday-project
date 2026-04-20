@@ -196,10 +196,10 @@ function App() {
   return (
     <div className="app-container" style={{ position: 'relative' }}>
       {/* Cartoon decoration for home page bottom right */}
-      <img src="/pin1.png" alt="Cute Anime Girl" style={{ position: 'absolute', bottom: '-20px', right: '-10px', width: '200px', zIndex: 10, animation: 'floatCard 5s ease-in-out infinite' }} />
+      <img src="/pin1.png" alt="Cute Anime Girl" style={{ position: 'absolute', bottom: '-20px', right: '-10px', width: '170px', zIndex: 10, animation: 'floatCard 5s ease-in-out infinite' }} />
       <img src="/pin2.png" alt="Cute Anime Girl" style={{ position: 'absolute', bottom: '-20px', left: '-10px', width: '200px', zIndex: 10, animation: 'floatCard 5s ease-in-out infinite' }} />
-      <img src="/pin3.png" alt="Cute Anime Girl" style={{ position: 'absolute', top: '45%', right: '-10px', width: '200px', zIndex: 10, animation: 'floatCard 5s ease-in-out infinite' }} />
-      <img src="/pin4.png" alt="Cute Anime Girl" style={{ position: 'absolute', top: '45%', left: '-10px', width: '200px', zIndex: 10, animation: 'floatCard 5s ease-in-out infinite' }} />
+      <img src="/pin3.png" alt="Cute Anime Girl" style={{ position: 'absolute', top: '45%', right: '300px', width: '150px', zIndex: 10, animation: 'floatCard 5s ease-in-out infinite' }} />
+      <img src="/pin4.png" alt="Cute Anime Girl" style={{ position: 'absolute', top: '45%', left: '250px', width: '200px', zIndex: 10, animation: 'floatCard 5s ease-in-out infinite' }} />
       <div className="content-wrapper">
         <div className="left-section">
           <div className="polaroid">
