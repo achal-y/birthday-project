@@ -170,9 +170,9 @@ function App() {
         <p className="presents-subtitle">Hope you like them hehe</p>
 
         <div className="gifts-row">
-          <img src="/gift5.webp" alt="Gift 1" className="gift-icon" style={{ width: "400px", height: "auto" }} onClick={() => setShowCakePage(true)} />
-          <img src="/gift4.webp" alt="Gift 2" className="gift-icon" style={{ width: "400px", height: "auto" }} onClick={() => setShowLettersPage(true)} />
-          <img src="/gift3.webp" alt="Gift 3" className="gift-icon" onClick={() => setShowPhotosPage(true)} />
+          <img src="/gift5.webp" alt="Gift 1" className="gift-icon" style={{ width: "200px", height: "auto" }} onClick={() => setShowCakePage(true)} />
+          <img src="/gift4.webp" alt="Gift 2" className="gift-icon" style={{ width: "200px", height: "auto" }} onClick={() => setShowLettersPage(true)} />
+          <img src="/gift3.webp" alt="Gift 3" className="gift-icon" style={{ width: "200px", height: "auto" }} onClick={() => setShowPhotosPage(true)} />
         </div>
       </div>
     );
@@ -183,10 +183,10 @@ function App() {
       <div className="next-page-container">
         <div style={{ position: 'relative', display: 'inline-block' }}>
           <img src="/Gemini_Generated_Image_z015v1z015v1z015.png" alt="Happy Birthday Card" className="full-birthday-card" style={{ width: "1200px", height: "auto" }} />
-          <img src="/pic1.png" alt="Girl in Black Dress" style={{ position: 'absolute', bottom: '6px', right: '-10px', width: '500px', height: 'auto', zIndex: 15, animation: 'floatCard 6s ease-in-out infinite' }} />
-          <img src="/pin16.png" alt="Cute Anime Girl" style={{ position: 'absolute', top: '-250px', right: '-350px', width: '400px', zIndex: 10, animation: 'floatCard 5s ease-in-out infinite' }} />
-          <img src="/pin17.png" alt="Cute Anime Girl" style={{ position: 'absolute', top: '550px', right: '1200px', width: '400px', zIndex: 10, animation: 'floatCard 5s ease-in-out infinite' }} />
-          <img src="/pin21.png" alt="Cute Anime Girl" style={{ position: 'absolute', top: '-350px', right: '1000px', width: '500px', zIndex: 10, animation: 'floatCard 5s ease-in-out infinite' }} />
+          <img src="/pic1.png" alt="Girl in Black Dress" style={{ position: 'absolute', bottom: '6px', right: '-10px', width: '200px', height: 'auto', zIndex: 15, animation: 'floatCard 6s ease-in-out infinite' }} />
+          <img src="/pin16.png" alt="Cute Anime Girl" style={{ position: 'absolute', top: '-250px', right: '-350px', width: '200px', zIndex: 10, animation: 'floatCard 5s ease-in-out infinite' }} />
+          <img src="/pin17.png" alt="Cute Anime Girl" style={{ position: 'absolute', top: '550px', right: '1200px', width: '200px', zIndex: 10, animation: 'floatCard 5s ease-in-out infinite' }} />
+          <img src="/pin21.png" alt="Cute Anime Girl" style={{ position: 'absolute', top: '-350px', right: '1000px', width: '200px', zIndex: 10, animation: 'floatCard 5s ease-in-out infinite' }} />
           <button className="proceed-button" onClick={() => setShowThirdPage(true)} style={{ position: 'absolute', bottom: '6px', right: '-10px', width: '400px', height: 'auto', zIndex: 15, animation: 'floatCard 6s ease-in-out infinite' }}>Click me ➔ </button>
         </div>
       </div>
@@ -203,7 +203,7 @@ function App() {
       <div className="content-wrapper">
         <div className="left-section">
           <div className="polaroid">
-            <img src="https://png.png tree.com/png-clipart/20231004/original/pngtree-light-blue-ribbon-png-image_13117816.png" alt="Bow" className="floating-bow" style={{ width: "220px", height: "auto" }} />
+            <img src="https://png.pngtree.com/png-clipart/20231004/original/pngtree-light-blue-ribbon-png-image_13117816.png" alt="Bow" className="floating-bow" style={{ width: "220px", height: "auto" }} />
             <img src="/frontpic.jpeg" alt="Couple" className="polaroid-image" style={{ width: "300px", height: "auto" }} />
             <img src="https://imgs.search.brave.com/QYcFjKQBV7PAdfc7cPmX1zZEEY1aWhjDkCzuHzXvLGA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wNTYv/NjEzLzMzNy9zbWFs/bC92YWxlbnRpbmUt/ZGF5LXdoaXRlLXRl/ZGR5LWJlYXItaXMt/c2V0dGluZy13aXRo/LXJlZC1yb3NlLWlz/LWlzb2xhdGVkLW9u/LXRyYW5zcGFyZW50/LWJhY2tncm91bmQt/ZnJlZS1wbmcucG5n" alt="Teddy Bear" className="floating-teddy" style={{ width: "200px", height: "auto" }} />
           </div>
