@@ -830,3 +830,273 @@ body {
   background: #ff2a55;
   transform: scale(1.05);
 }
+
+/* --- Mobile Responsiveness --- */
+@media (max-width: 900px) {
+  .content-wrapper {
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px;
+  }
+
+  .gifts-row {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .cake-main-content {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .photos-content {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Page 1 */
+  .polaroid-image {
+    width: 250px;
+    height: 250px;
+  }
+  
+  .passcode-title {
+    font-size: 2.5rem;
+  }
+
+  .passcode-box {
+    width: 45px;
+    height: 55px;
+    font-size: 2rem;
+  }
+
+  .key-button {
+    width: 60px;
+    height: 60px;
+    font-size: 1.8rem;
+  }
+
+  .keypad {
+    gap: 15px;
+  }
+
+  .hint-text {
+    font-size: 1.5rem;
+  }
+
+  .floating-teddy {
+    width: 100px;
+    right: -40px;
+    bottom: -20px;
+  }
+  
+  .floating-bow {
+    width: 70px;
+    left: -20px;
+    top: -20px;
+  }
+
+  /* Page 2 */
+  .birthday-card {
+    width: 90vw;
+    height: auto;
+    padding: 30px;
+  }
+
+  .birthday-text-bubble {
+    padding: 20px 40px;
+  }
+
+  .birthday-text-bubble h1 {
+    font-size: 3.5rem;
+  }
+
+  .proceed-button {
+    font-size: 1.8rem;
+    padding: 10px 20px;
+  }
+
+  /* Page 3 */
+  .presents-title {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .presents-subtitle {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .gift-icon {
+    width: 180px;
+  }
+
+  /* Cake Page */
+  .cake-title {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  .side-puzzles.left, .side-puzzles.right {
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .main-cake {
+    width: 250px;
+  }
+
+  /* Letter Page */
+  .letters-title {
+    font-size: 3.5rem;
+    margin-left: 0;
+    text-align: center;
+    align-self: center;
+  }
+
+  .notebook-paper {
+    width: 90vw;
+    padding: 30px 20px;
+    min-height: auto;
+  }
+
+  .paper-content p {
+    font-size: 1.8rem;
+    padding-left: 15px;
+  }
+
+  .letter-cat {
+    width: 150px;
+    left: 10px;
+    bottom: 10px;
+  }
+
+  .right-decorations {
+    display: none; /* Hide side decorations on small screens */
+  }
+
+  /* Photos Page */
+  .vertical-photo-strip {
+    transform: none;
+    padding: 15px 15px 25px 15px;
+  }
+
+  .photo-frame {
+    width: 250px;
+    height: 250px;
+  }
+
+  .letter-envelope-container {
+    width: 300px;
+    height: 220px;
+  }
+
+  .envelope-body {
+    border-left-width: 150px;
+    border-right-width: 150px;
+    border-bottom-width: 150px;
+    border-top-width: 70px;
+  }
+
+  .envelope-top {
+    border-left-width: 150px;
+    border-right-width: 150px;
+    border-top-width: 110px;
+  }
+
+  .envelope-paper {
+    height: 180px;
+    padding: 15px;
+  }
+
+  .envelope:hover .envelope-paper {
+    transform: translateY(-120px);
+  }
+
+  .envelope-seal {
+    top: 85px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .back-button {
+    bottom: 20px;
+    right: 20px;
+    padding: 8px 20px;
+    font-size: 1rem;
+    z-index: 100;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Extra small screens */
+  .passcode-boxes {
+    gap: 10px;
+  }
+  
+  .passcode-box {
+    width: 35px;
+    height: 45px;
+    font-size: 1.5rem;
+  }
+  
+  .key-button {
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+  }
+  
+  .polaroid-image {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .birthday-text-bubble h1 {
+    font-size: 2.8rem;
+  }
+  
+  .gift-icon {
+    width: 150px;
+  }
+  
+  .notebook-paper {
+    background-size: 100% 30px;
+    background-image: 
+      linear-gradient(90deg, transparent 30px, #ffb3c1 30px, #ffb3c1 32px, transparent 32px), 
+      repeating-linear-gradient(transparent, transparent 29px, #a2d2ff 29px, #a2d2ff 30px);
+  }
+
+  .notebook-paper::before {
+    background: radial-gradient(circle, #fff0f3 10px, transparent 11px);
+    background-size: 30px 30px;
+    background-position: -15px 0;
+  }
+  
+  .paper-content {
+    line-height: 30px;
+  }
+  
+  .paper-content p {
+    font-size: 1.5rem;
+    padding-left: 10px;
+  }
+  
+  .envelope-paper p {
+    font-size: 1.5rem;
+    line-height: 25px;
+  }
+
+  .photo-frame {
+    width: 200px;
+    height: 200px;
+  }
+
+  .main-cake {
+    width: 200px;
+  }
+}
