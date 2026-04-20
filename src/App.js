@@ -203,9 +203,9 @@ function App() {
       <div className="content-wrapper">
         <div className="left-section">
           <div className="polaroid">
-            <img src="https://png.png tree.com/png-clipart/20231004/original/pngtree-light-blue-ribbon-png-image_13117816.png" alt="Bow" className="floating-bow" style={{ width: "250px", height: "auto" }} />
-            <img src="/frontpic.jpeg" alt="Couple" className="polaroid-image" style={{ width: "100px", height: "auto" }} />
-            <img src="https://imgs.search.brave.com/QYcFjKQBV7PAdfc7cPmX1zZEEY1aWhjDkCzuHzXvLGA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wNTYv/NjEzLzMzNy9zbWFs/bC92YWxlbnRpbmUt/ZGF5LXdoaXRlLXRl/ZGR5LWJlYXItaXMt/c2V0dGluZy13aXRo/LXJlZC1yb3NlLWlz/LWlzb2xhdGVkLW9u/LXRyYW5zcGFyZW50/LWJhY2tncm91bmQt/ZnJlZS1wbmcucG5n" alt="Teddy Bear" className="floating-teddy" style={{ width: "350px", height: "auto" }} />
+            <img src="https://png.png tree.com/png-clipart/20231004/original/pngtree-light-blue-ribbon-png-image_13117816.png" alt="Bow" className="floating-bow" style={{ width: "220px", height: "auto" }} />
+            <img src="/frontpic.jpeg" alt="Couple" className="polaroid-image" style={{ width: "300px", height: "auto" }} />
+            <img src="https://imgs.search.brave.com/QYcFjKQBV7PAdfc7cPmX1zZEEY1aWhjDkCzuHzXvLGA/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wNTYv/NjEzLzMzNy9zbWFs/bC92YWxlbnRpbmUt/ZGF5LXdoaXRlLXRl/ZGR5LWJlYXItaXMt/c2V0dGluZy13aXRo/LXJlZC1yb3NlLWlz/LWlzb2xhdGVkLW9u/LXRyYW5zcGFyZW50/LWJhY2tncm91bmQt/ZnJlZS1wbmcucG5n" alt="Teddy Bear" className="floating-teddy" style={{ width: "200px", height: "auto" }} />
           </div>
         </div>
 
