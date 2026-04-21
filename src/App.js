@@ -2,6 +2,17 @@ import React, { useState } from "react";
 
 const keypadKeys = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "C", "0", "?"];
 
+const FloatingDecorations = () => (
+  <div className="pointer-events-none absolute inset-0 overflow-hidden z-0">
+    <div className="absolute top-[10%] left-[10%] animate-float opacity-50 text-4xl">⭐</div>
+    <div className="absolute top-[20%] right-[15%] animate-float opacity-50 text-4xl" style={{ animationDelay: '1s' }}>☁️</div>
+    <div className="absolute bottom-[20%] left-[15%] animate-float opacity-50 text-4xl" style={{ animationDelay: '2s' }}>💖</div>
+    <div className="absolute bottom-[10%] right-[10%] animate-float opacity-50 text-4xl" style={{ animationDelay: '3s' }}>✨</div>
+    <div className="absolute top-[40%] right-[5%] animate-float opacity-40 text-3xl" style={{ animationDelay: '1.5s' }}>🌈</div>
+    <div className="absolute bottom-[40%] left-[5%] animate-float opacity-40 text-3xl" style={{ animationDelay: '2.5s' }}>🌸</div>
+  </div>
+);
+
 function App() {
   const [passcode, setPasscode] = useState("");
   const [showNextPage, setShowNextPage] = useState(false);
@@ -26,8 +37,9 @@ function App() {
 
   if (showCakePage) {
     return (
-      <div className="relative flex items-center justify-center min-h-screen overflow-x-hidden bg-pink-50 px-4 py-8 sm:px-6 lg:px-10">
-        <div className="mx-auto flex w-full max-w-7xl flex-col items-center gap-6 md:gap-10">
+      <div className="relative flex items-center justify-center min-h-screen overflow-x-hidden kawaii-bg px-4 py-8 sm:px-6 lg:px-10">
+        <FloatingDecorations />
+        <div className="relative z-10 mx-auto flex w-full max-w-7xl flex-col items-center gap-6 md:gap-10">
           <h1 className="text-center text-3xl font-bold text-pink-600 sm:text-4xl md:text-5xl">
             Aru&apos;s Birthday Cake
           </h1>
@@ -39,16 +51,16 @@ function App() {
                 alt="Hearts"
                 className="mx-auto w-full max-w-xs object-cover sm:max-w-sm"
               />
-              <div className="rounded-2xl border border-pink-200 bg-white p-4 text-center text-base text-slate-700 shadow-sm sm:text-lg">
+              <div className="bubbly-card p-4 text-center text-base text-slate-700 sm:text-lg">
                 I will always love you no matter what
               </div>
-              <div className="rounded-2xl border border-pink-200 bg-white p-4 text-center text-base text-slate-700 shadow-sm sm:text-lg">
+              <div className="bubbly-card p-4 text-center text-base text-slate-700 sm:text-lg">
                 You are the best part of my life
               </div>
             </div>
 
             <div className="order-1 lg:order-2">
-              <div className="rounded-[2rem] border-4 border-pink-200 bg-white p-3 shadow-lg sm:p-5">
+              <div className="bubbly-card p-3 sm:p-5">
                 <video
                   src="/cake5.webm"
                   className="w-full max-w-md rounded-2xl object-cover"
@@ -66,20 +78,20 @@ function App() {
                 alt="Dangling Hearts"
                 className="mx-auto h-auto w-40 object-cover sm:w-52"
               />
-              <div className="rounded-2xl border border-pink-200 bg-white p-4 text-center text-base text-slate-700 shadow-sm sm:text-lg">
+              <div className="bubbly-card p-4 text-center text-base text-slate-700 sm:text-lg">
                 You will forever be my only option.
               </div>
-              <div className="rounded-2xl border border-pink-200 bg-white p-4 text-center text-base text-slate-700 shadow-sm sm:text-lg">
+              <div className="bubbly-card p-4 text-center text-base text-slate-700 sm:text-lg">
                 I can&apos;t imagine a life without you!!!
               </div>
             </div>
           </div>
 
           <button
-            className="rounded-full bg-pink-600 px-6 py-2 text-sm font-semibold text-white transition hover:bg-pink-700 sm:px-8 sm:py-3 sm:text-base"
+            className="rounded-full bg-pink-600 px-8 py-3 text-base font-semibold text-white shadow-lg transition hover:bg-pink-700 active:scale-95"
             onClick={() => setShowCakePage(false)}
           >
-            Click me!
+            Go Back
           </button>
         </div>
       </div>
@@ -88,24 +100,22 @@ function App() {
 
   if (showLettersPage) {
     return (
-      <div className="relative flex items-center justify-center min-h-screen overflow-x-hidden bg-pink-50 px-4 py-8 sm:px-6 lg:px-10">
-        <div className="mx-auto flex w-full max-w-5xl flex-col items-center text-center gap-4 sm:gap-6">
+      <div className="relative flex items-center justify-center min-h-screen overflow-x-hidden kawaii-bg px-4 py-8 sm:px-6 lg:px-10">
+        <FloatingDecorations />
+        <div className="relative z-10 mx-auto flex w-full max-w-5xl flex-col items-center text-center gap-4 sm:gap-6">
           <h1 className="text-center text-3xl font-bold text-pink-600 sm:text-4xl md:text-5xl">
-            Words from my <span className="underline">Heart</span>
+            Words from my <span className="underline">DILL</span>
           </h1>
 
-          <div className="rounded-xl bg-amber-50 p-4 shadow-md sm:p-6 md:p-8">
+          <div className="bubbly-card bg-amber-50/90 p-4 sm:p-6 md:p-8">
             <div className="space-y-1 text-base leading-relaxed text-slate-700 sm:text-lg md:text-xl">
-              <p>Happiest birthday baby,</p>
-              <p>you make my life so meaningful</p>
-              <p>and I am so lucky to have you</p>
-              <p>as my valentine this year. I love</p>
-              <p>you wholeheartedly and I can&apos;t</p>
-              <p>wait to continue loving you for</p>
-              <p>the rest of my life. I know I tell</p>
-              <p>you this everyday but you are</p>
-              <p>literally the most beautiful girl</p>
-              <p>I know. Anyways, I love you.</p>
+              <p>Happiest birthday To my Aruuu</p>
+              <p>I'm so happpy for ur special day, </p>
+              <p>so lucky to have you in my life,</p>
+              <p>I love you so much and I can't wait to continue loving you for the rest of my life</p>
+              <p>I know I tell you this everyday but you are</p>
+              <p>literally the most beautiful girl I've ever seen</p>
+              <p>I know. Anyways, I love you Bacha</p>
               <p className="pt-3 text-right font-semibold text-pink-600">Always, Forever</p>
             </div>
           </div>
@@ -117,10 +127,10 @@ function App() {
           </div>
 
           <button
-            className="mx-auto mt-2 rounded-full bg-pink-600 px-6 py-2 text-sm font-semibold text-white transition hover:bg-pink-700 sm:px-8 sm:py-3 sm:text-base"
+            className="mx-auto mt-2 rounded-full bg-pink-600 px-8 py-3 text-base font-semibold text-white shadow-lg transition hover:bg-pink-700 active:scale-95"
             onClick={() => setShowLettersPage(false)}
           >
-            Click me!
+            Go Back
           </button>
         </div>
       </div>
@@ -129,8 +139,9 @@ function App() {
 
   if (showPhotosPage) {
     return (
-      <div className="flex items-center justify-center min-h-screen overflow-x-hidden bg-pink-50 px-4 py-8 sm:px-6 lg:px-10">
-        <div className="mx-auto flex w-full max-w-7xl flex-col items-center gap-6">
+      <div className="relative flex items-center justify-center min-h-screen overflow-x-hidden kawaii-bg px-4 py-8 sm:px-6 lg:px-10">
+        <FloatingDecorations />
+        <div className="relative z-10 mx-auto flex w-full max-w-7xl flex-col items-center gap-6">
           <div className="grid w-full grid-cols-1 items-center gap-5 md:grid-cols-2 lg:grid-cols-3">
             <div className="rounded-2xl bg-white p-4 shadow-md">
               <div className="space-y-3">
@@ -138,14 +149,20 @@ function App() {
                 <img src="/diw2.jpeg" alt="Couple" className="h-52 w-full rounded-lg object-cover" />
                 <img src="/pink2.jpeg" alt="Flowers" className="h-52 w-full rounded-lg object-cover" />
               </div>
-              <p className="pt-3 text-center text-lg font-semibold text-pink-600">LOVE ??</p>
+              <p className="pt-3 text-center text-lg font-semibold text-pink-600">MY LOVE</p>
             </div>
 
-            <div className="rounded-2xl border border-pink-200 bg-white p-4 shadow-md text-center">
+            <div className="bubbly-card p-4 text-center">
               <p className="text-sm leading-relaxed text-slate-700 sm:text-base">
-                You are closer than I thought and that appeals I always love you. I just want you to know
-                that I&apos;m really happy with you and I want to keep choosing you every single day. I love
-                you more than you can ever know.
+                Jii aapke itne saare cute cute photos the , ki mujhe sochne mai itna time lag gya ki mai konsi
+                photos daluu yaha per dammm!!aapke pretty smile per toh mai fidaaa huuu,like itna cute koi kaise ho skta h just see ur self aruuuu aaapko dekhne ke bad lagta h
+                kaash ye ladki sirf mere passs rahe , the only wish i have from god is that i want to be with you aaapke saath rekr
+                aesa lagta h bs this is the best thing happening with me. I just want to hug you so tight and never let you go.
+                I'm so sryy last year aapke saath jo bhee kiya maine. I promise i will never repeat those mistakes again.
+                I just want to make you happy and I will do everything to make you happy. ye chota sa cute sa gift 10 days  phele se ready tha ,bhaut excited tha
+                aappko dhikhane ki liye. Lga nhi tha cute banjayega thoda hehehe
+
+
               </p>
             </div>
 
@@ -155,7 +172,7 @@ function App() {
                 <img src="/pic20.jpeg" alt="Couple" className="h-52 w-full rounded-lg object-cover" />
                 <img src="/pic18.jpeg" alt="Flowers" className="h-52 w-full rounded-lg object-cover" />
               </div>
-              <p className="pt-3 text-center text-lg font-semibold text-pink-600">LOVE ??</p>
+              <p className="pt-3 text-center text-lg font-semibold text-pink-600">MY LOVE</p>
             </div>
           </div>
 
@@ -166,10 +183,10 @@ function App() {
           </div>
 
           <button
-            className="rounded-full bg-pink-600 px-6 py-2 text-sm font-semibold text-white transition hover:bg-pink-700 sm:px-8 sm:py-3 sm:text-base"
+            className="rounded-full bg-pink-600 px-8 py-3 text-base font-semibold text-white shadow-lg transition hover:bg-pink-700 active:scale-95"
             onClick={() => setShowPhotosPage(false)}
           >
-            BACK
+            Go Back
           </button>
         </div>
       </div>
@@ -178,10 +195,11 @@ function App() {
 
   if (showThirdPage) {
     return (
-      <div className="flex items-center justify-center min-h-screen overflow-x-hidden bg-gradient-to-b from-pink-100 to-rose-200 px-4 py-10 sm:px-6">
-        <div className="mx-auto flex w-full max-w-5xl flex-col items-center gap-6 text-center">
+      <div className="relative flex items-center justify-center min-h-screen overflow-x-hidden kawaii-bg px-4 py-10 sm:px-6">
+        <FloatingDecorations />
+        <div className="relative z-10 mx-auto flex w-full max-w-5xl flex-col items-center gap-6 text-center">
           <h1 className="text-3xl font-bold text-pink-600 sm:text-4xl md:text-5xl">
-            Click to open your presents!
+            Open you presents aruu MMUUAAHH !!
           </h1>
           <p className="text-lg text-pink-500 sm:text-xl md:text-2xl">Hope you like them hehe</p>
 
@@ -196,6 +214,13 @@ function App() {
               <img src="/gift3.webp" alt="Gift 3" className="h-52 w-full rounded-xl object-cover transition group-hover:scale-105" />
             </button>
           </div>
+
+          <button
+            className="rounded-full bg-pink-600 px-8 py-3 text-base font-semibold text-white shadow-lg transition hover:bg-pink-700 active:scale-95"
+            onClick={() => setShowThirdPage(false)}
+          >
+            Go Back
+          </button>
         </div>
       </div>
     );
@@ -203,8 +228,24 @@ function App() {
 
   if (showNextPage) {
     return (
-      <div className="flex items-center justify-center min-h-screen overflow-x-hidden bg-pink-50 px-4 py-8 sm:px-6 lg:px-10">
-        <div className="mx-auto flex w-full max-w-6xl flex-col items-center gap-5">
+      <div className="relative flex items-center justify-center min-h-screen overflow-x-hidden kawaii-bg px-4 py-8 sm:px-6 lg:px-10">
+        <FloatingDecorations />
+        <div className="pointer-events-none absolute inset-0 overflow-hidden z-20">
+          <img src="/pin21.png" alt="Cute Anime Girl" className="absolute bottom-2 right-2 w-44 object-cover sm:w-56 lg:w-72" />
+          <img src="/pic34.png" alt="Cute Anime Girl" className="absolute top-2 left-2 w-44 object-cover sm:w-56 lg:w-72" />
+          <img src="/pic35.png" alt="Cute Anime Girl" className="absolute right-2 top-2 w-36 object-cover sm:w-44 lg:w-56" />
+          <img src="/pic30.png" alt="Cute Anime Girl" className="absolute left-2 bottom-2 w-44 object-cover sm:w-56 lg:w-72" />
+          <img src="/pic38.png" alt="Cute Anime Girl" className="absolute left-2 top-1/3 -translate-y-1/2 w-44 object-cover sm:w-56 lg:w-72" />
+          <img src="/pic41.png" alt="Cute Anime Girl" className="absolute right-2 top-1/3 -translate-y-1/2 w-44 object-cover sm:w-56 lg:w-72" />
+          <img src="/pic42.png" alt="Cute Anime Girl" className="absolute right-2 top-1/2 -translate-y-1/2 w-44 object-cover sm:w-56 lg:w-72" />
+          <img src="/pic43.png" alt="Cute Anime Girl" className="absolute right-2 top-2/3 -translate-y-1/2 w-44 object-cover sm:w-56 lg:w-72" />
+          <img src="/pic44.png" alt="Cute Anime Girl" className="absolute left-2 top-2/3 -translate-y-1/2 w-48 object-cover sm:w-65 lg:w-80" />
+          <img src="/pic46.png" alt="Cute Anime Girl" className="absolute left-2 top-1/2 -translate-y-1/2 w-44 object-cover sm:w-60 lg:w-70" />
+          <img src="/pic47.png" alt="Cute Anime Girl" className="absolute right-2 top-3/4 -translate-y-1/2 w-44 object-cover sm:w-60 lg:w-70" />
+          <img src="/pic48.png" alt="Cute Anime Girl" className="absolute leftt-2 top-3/4 top-5-translate-y-1/2 w-44 object-cover sm:w-60 lg:w-70" />
+        </div>
+
+        <div className="relative z-10 mx-auto flex w-full max-w-6xl flex-col items-center gap-5">
           <img
             src="/Gemini_Generated_Image_z015v1z015v1z015.png"
             alt="Happy Birthday Card"
@@ -213,32 +254,42 @@ function App() {
 
           <div className="grid w-full grid-cols-1 gap-4 sm:grid-cols-3">
             <img src="/pic1.png" alt="Girl in Black Dress" className="w-full rounded-xl object-cover" />
-            <img src="/pin16.png" alt="Cute Anime Girl" className="w-full rounded-xl object-cover" />
-            <img src="/pin21.png" alt="Cute Anime Girl" className="w-full rounded-xl object-cover" />
+
           </div>
 
-          <button
-            className="rounded-full bg-pink-600 px-6 py-2 text-sm font-semibold text-white transition hover:bg-pink-700 sm:px-8 sm:py-3 sm:text-base"
-            onClick={() => setShowThirdPage(true)}
-          >
-            Click me ?
-          </button>
+          <div className="flex flex-col gap-4">
+            <button
+              className="rounded-full bg-pink-600 px-8 py-3 text-base font-semibold text-white shadow-lg transition hover:bg-pink-700 active:scale-95"
+              onClick={() => setShowThirdPage(true)}
+            >
+              Click me ?
+            </button>
+            <button
+              className="rounded-full border-2 border-pink-600 px-8 py-2 text-sm font-semibold text-pink-600 transition hover:bg-pink-50 active:scale-95"
+              onClick={() => setShowNextPage(false)}
+            >
+              Go Back
+            </button>
+          </div>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="relative min-h-screen overflow-x-hidden bg-pink-50 px-4 py-8 sm:px-6 lg:px-10">
-      <div className="pointer-events-none absolute inset-0 overflow-hidden z-10">
-        <img src="/pin1.png" alt="Cute Anime Girl" className="absolute bottom-2 right-2 w-16 object-cover sm:w-20 lg:w-28" />
-        <img src="/pin2.png" alt="Cute Anime Girl" className="absolute bottom-2 left-2 w-16 object-cover sm:w-20 lg:w-28" />
-        <img src="/pin3.png" alt="Cute Anime Girl" className="absolute right-2 top-2 w-16 object-cover sm:w-20 lg:w-28" />
-        <img src="/pin4.png" alt="Cute Anime Girl" className="absolute left-2 top-2 w-16 object-cover sm:w-20 lg:w-28" />
+    <div className="relative flex items-center justify-center min-h-screen overflow-x-hidden kawaii-bg px-4 py-8 sm:px-6 lg:px-10">
+      <FloatingDecorations />
+      <div className="pointer-events-none absolute inset-0 overflow-hidden z-20">
+        <img src="/pin1.png" alt="Cute Anime Girl" className="absolute bottom-2 right-2 w-36 object-cover sm:w-44 lg:w-56" />
+        <img src="/pin2.png" alt="Cute Anime Girl" className="absolute bottom-2 left-2 w-36 object-cover sm:w-44 lg:w-56" />
+        <img src="/pin3.png" alt="Cute Anime Girl" className="absolute right-2 top-2 w-36 object-cover sm:w-44 lg:w-56" />
+        <img src="/pin4.png" alt="Cute Anime Girl" className="absolute left-2 top-2 w-36 object-cover sm:w-44 lg:w-56" />
+        <img src="/pic31.png" alt="Cute Anime Girl" className="absolute left-2 top-1/2 -translate-y-1/2 w-44 object-cover sm:w-56 lg:w-56" />
+        <img src="/pic33.png" alt="Cute Anime Girl" className="absolute right-2 top-1/2 -translate-y-1/2 w-44 object-cover sm:w-56 lg:w-56" />
       </div>
 
-      <div className="relative mx-auto grid w-full max-w-6xl grid-cols-1 items-center gap-8 lg:grid-cols-2 lg:gap-12">
-        <div className="mx-auto w-full max-w-sm rounded-md bg-white p-4 shadow-lg sm:p-5 lg:rotate-[-3deg]">
+      <div className="relative z-10 mx-auto grid w-full max-w-6xl grid-cols-1 items-center gap-8 lg:grid-cols-2 lg:gap-12">
+        <div className="mx-auto w-full max-w-sm bubbly-card p-4 sm:p-5 lg:rotate-[-3deg]">
           <img
             src="https://png.pngtree.com/png-clipart/20231004/original/pngtree-light-blue-ribbon-png-image_13117816.png"
             alt="Bow"
@@ -248,11 +299,11 @@ function App() {
           <img
             src="https://imgs.search.brave.com/NYW_RtcrsP0qoEEWEBhzLViTVGMe0AwAB529-SeQ9u0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wNTYv/NjEzLzMzNy9zbWFs/bC92YWxlbnRpbmUt/ZGF5LXdoaXRlLXRl/ZGR5LWJlYXItaXMt/c2V0dGluZy13aXRo/LXJlZC1yb3NlLWlz/LWlzb2xhdGVkLW9u/LXRyYW5zcGFyZW50/LWJhY2tncm91bmQt/ZnJlZS1wbmcucG5n"
             alt="Teddy Bear"
-            className="mx-auto mt-4 w-28 object-cover sm:w-36"
+            className="mx-auto mt-4 w-36 object-cover sm:w-44"
           />
         </div>
 
-        <div className="mx-auto flex w-full max-w-sm flex-col items-center rounded-2xl bg-white/80 p-5 shadow-md backdrop-blur-sm sm:p-6">
+        <div className="mx-auto flex w-full max-w-sm flex-col items-center bubbly-card p-5 sm:p-6">
           <h2 className="mb-4 text-center text-2xl font-bold text-slate-700 sm:text-3xl">Enter a passcode</h2>
 
           <div className="mb-6 flex gap-2 sm:gap-3">
