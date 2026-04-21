@@ -26,13 +26,13 @@ function App() {
 
   if (showCakePage) {
     return (
-      <div className="relative min-h-screen overflow-x-hidden bg-pink-50 px-4 py-8 sm:px-6 lg:px-10">
+      <div className="relative flex items-center justify-center min-h-screen overflow-x-hidden bg-pink-50 px-4 py-8 sm:px-6 lg:px-10">
         <div className="mx-auto flex w-full max-w-7xl flex-col items-center gap-6 md:gap-10">
           <h1 className="text-center text-3xl font-bold text-pink-600 sm:text-4xl md:text-5xl">
             Aru&apos;s Birthday Cake
           </h1>
 
-          <div className="grid w-full grid-cols-1 items-start gap-6 lg:grid-cols-3 lg:gap-8">
+          <div className="grid w-full grid-cols-1 items-center gap-6 lg:grid-cols-3 lg:gap-8">
             <div className="order-2 flex flex-col gap-4 lg:order-1">
               <img
                 src="/2h.png"
@@ -88,8 +88,8 @@ function App() {
 
   if (showLettersPage) {
     return (
-      <div className="relative min-h-screen overflow-x-hidden bg-pink-50 px-4 py-8 sm:px-6 lg:px-10">
-        <div className="mx-auto flex w-full max-w-5xl flex-col gap-4 sm:gap-6">
+      <div className="relative flex items-center justify-center min-h-screen overflow-x-hidden bg-pink-50 px-4 py-8 sm:px-6 lg:px-10">
+        <div className="mx-auto flex w-full max-w-5xl flex-col items-center text-center gap-4 sm:gap-6">
           <h1 className="text-center text-3xl font-bold text-pink-600 sm:text-4xl md:text-5xl">
             Words from my <span className="underline">Heart</span>
           </h1>
@@ -129,9 +129,9 @@ function App() {
 
   if (showPhotosPage) {
     return (
-      <div className="min-h-screen overflow-x-hidden bg-pink-50 px-4 py-8 sm:px-6 lg:px-10">
+      <div className="flex items-center justify-center min-h-screen overflow-x-hidden bg-pink-50 px-4 py-8 sm:px-6 lg:px-10">
         <div className="mx-auto flex w-full max-w-7xl flex-col items-center gap-6">
-          <div className="grid w-full grid-cols-1 items-start gap-5 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid w-full grid-cols-1 items-center gap-5 md:grid-cols-2 lg:grid-cols-3">
             <div className="rounded-2xl bg-white p-4 shadow-md">
               <div className="space-y-3">
                 <img src="/diw5.jpeg" alt="Sunset" className="h-52 w-full rounded-lg object-cover" />
@@ -141,7 +141,7 @@ function App() {
               <p className="pt-3 text-center text-lg font-semibold text-pink-600">LOVE ??</p>
             </div>
 
-            <div className="rounded-2xl border border-pink-200 bg-white p-4 shadow-md">
+            <div className="rounded-2xl border border-pink-200 bg-white p-4 shadow-md text-center">
               <p className="text-sm leading-relaxed text-slate-700 sm:text-base">
                 You are closer than I thought and that appeals I always love you. I just want you to know
                 that I&apos;m really happy with you and I want to keep choosing you every single day. I love
@@ -178,7 +178,7 @@ function App() {
 
   if (showThirdPage) {
     return (
-      <div className="min-h-screen overflow-x-hidden bg-gradient-to-b from-pink-100 to-rose-200 px-4 py-10 sm:px-6">
+      <div className="flex items-center justify-center min-h-screen overflow-x-hidden bg-gradient-to-b from-pink-100 to-rose-200 px-4 py-10 sm:px-6">
         <div className="mx-auto flex w-full max-w-5xl flex-col items-center gap-6 text-center">
           <h1 className="text-3xl font-bold text-pink-600 sm:text-4xl md:text-5xl">
             Click to open your presents!
@@ -203,7 +203,7 @@ function App() {
 
   if (showNextPage) {
     return (
-      <div className="min-h-screen overflow-x-hidden bg-pink-50 px-4 py-8 sm:px-6 lg:px-10">
+      <div className="flex items-center justify-center min-h-screen overflow-x-hidden bg-pink-50 px-4 py-8 sm:px-6 lg:px-10">
         <div className="mx-auto flex w-full max-w-6xl flex-col items-center gap-5">
           <img
             src="/Gemini_Generated_Image_z015v1z015v1z015.png"
