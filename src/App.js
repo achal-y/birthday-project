@@ -112,7 +112,8 @@ function App() {
               <p>Happiest birthday To my Aruuu</p>
               <p>I'm so happpy for ur special day, </p>
               <p>so lucky to have you in my life,</p>
-              <p>I love you so much and I can't wait to continue loving you for the rest of my life</p>
+              <p>aapko nhi pta mai kitna khuush hhuuu..aapke special day per mai aapke sath hu</p>
+              <p>I love you I love you I love you so much </p>
               <p>I know I tell you this everyday but you are</p>
               <p>literally the most beautiful girl I've ever seen</p>
               <p>I know. Anyways, I love you Bacha</p>
@@ -124,6 +125,12 @@ function App() {
             <img src="/cat1.png" alt="Cute Cat" className="w-full rounded-xl object-cover" />
             <img src="/flow5.png" alt="Flowers" className="w-full rounded-xl object-cover" />
             <img src="/pic14.png" alt="Decorative Pic" className="w-full rounded-xl object-cover" />
+            <img src="/pic551.png" alt="Cute Anime Girl" className="absolute left-2 top-1/2 top-5-translate-y-1/2 w-44 object-cover sm:w-60 lg:w-70" />
+            <img src="/pic56.png" alt="Cute Anime Girl" className="absolute right-2 top-1/2 top-5-translate-y-1/2 w-44 object-cover sm:w-60 lg:w-70" />
+            <img src="/pic58.png" alt="Cute Anime Girl" className="absolute right-2 bottom-8 w-48 object-cover sm:w-65 lg:w-78" />
+
+
+
           </div>
 
           <button
@@ -156,11 +163,13 @@ function App() {
               <p className="text-sm leading-relaxed text-slate-700 sm:text-base">
                 Jii aapke itne saare cute cute photos the , ki mujhe sochne mai itna time lag gya ki mai konsi
                 photos daluu yaha per dammm!!aapke pretty smile per toh mai fidaaa huuu,like itna cute koi kaise ho skta h just see ur self aruuuu aaapko dekhne ke bad lagta h
-                kaash ye ladki sirf mere passs rahe , the only wish i have from god is that i want to be with you aaapke saath rekr
+                kaash ye ladki sirf mere passs rahe , the only wish i have from god is that i want to be with you. Aapke saath rekr
                 aesa lagta h bs this is the best thing happening with me. I just want to hug you so tight and never let you go.
                 I'm so sryy last year aapke saath jo bhee kiya maine. I promise i will never repeat those mistakes again.
-                I just want to make you happy and I will do everything to make you happy. ye chota sa cute sa gift 10 days  phele se ready tha ,bhaut excited tha
-                aappko dhikhane ki liye. Lga nhi tha cute banjayega thoda hehehe
+                I just want to make you happy and I will do everything to make you happy. Apko khush dekh kr mai bhee khush hojatahuu bhautt
+                ye chota sa cute sa website bana kr aapko dhikhane ke liye bhaut excited thaa. Lga nhi tha cute banjayega thoda hehehe.mere mnn mai bs yahi chal rha h kya aapko mai station per hug krpaunga ya nhi bhaut jyada excited hu I hope maine aapko bhaut jorr se hug kiya hogaaa AAHHH MMUUAAHH. But sach btau aapse durr rehkr mujhe bilkul achaa nhi lagta haii rozz aapko bhaut miss krta huu mnnn krta hai bs aapke baho mai rahuuu .I m very lucky ki aap mere life mai ho. ARUU ukw aap bhaut jyada acche ho bhautt mtlb bhauttt like mai express nhi kr skta aap kitne acche ho.
+
+
 
 
               </p>
@@ -177,9 +186,11 @@ function App() {
           </div>
 
           <div className="grid w-full max-w-4xl grid-cols-2 gap-4 sm:grid-cols-3">
-            <img src="/cat1.png" alt="Cute Cat" className="w-full object-cover" />
-            <img src="/2h.png" alt="Hearts" className="w-full object-cover" />
-            <img src="/back2.png" alt="Cute Decoration" className="col-span-2 w-full object-cover sm:col-span-1" />
+            <video src="/kiss.mp4" className="w-full object-cover" autoPlay loop muted playsInline />
+            <img src="/pic61.png" alt="Hearts" className="w-full object-cover" />
+            <img src="/pic65.png" alt="Cute Decoration" className="col-span-2 w-full object-cover sm:col-span-1" />
+            <img src="/pic69.png" alt="Cute Anime Girl" className="absolute right-2 bottom-1/4 w-48 object-cover sm:w-65 lg:w-78" />
+
           </div>
 
           <button
