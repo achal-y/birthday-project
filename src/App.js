@@ -24,7 +24,7 @@ function App() {
 
   useEffect(() => {
     setTimeout(() => {
-      alert("AARUUUUUU Tap on our cute picture to play the song 🎶");
+      alert("AAARUUUU Tap on our cute picture to play the song 🎶");
     }, 500);
 
     const handleInteract = () => {
@@ -193,7 +193,7 @@ function App() {
                 <br />
                 <br />
                 Aapse ek din baat nhi krta hu toh idk mujhe kya hojata haii.. ek din bhee raha nhi jata aapse bina baat kiyee 🥹🥹
-                I just want to be with you always and forever 🥹🥹
+                I just want to be with you always and forever 🥹🥹......
 
 
 
