@@ -23,6 +23,10 @@ function App() {
   const audioRef = useRef(null);
 
   useEffect(() => {
+    setTimeout(() => {
+      alert("Tap on our cute picture to play the song 🎶");
+    }, 500);
+
     const handleInteract = () => {
       if (audioRef.current && audioRef.current.paused) {
         audioRef.current.play().catch(e => console.log("Audio play failed:", e));
@@ -53,21 +57,21 @@ function App() {
         <FloatingDecorations />
         <div className="relative z-10 mx-auto flex w-full max-w-7xl flex-col items-center gap-6 md:gap-10">
           <h1 className="text-center text-3xl font-bold text-pink-600 sm:text-4xl md:text-5xl">
-            Aru&apos;s Birthday Cake
+            Aru&apos;s Birthday Cake 🎂
           </h1>
 
           <div className="grid w-full grid-cols-1 items-center gap-6 lg:grid-cols-3 lg:gap-8">
             <div className="order-2 flex flex-col gap-4 lg:order-1">
               <img
-                src="/2h.png"
+                src="/twoh.png"
                 alt="Hearts"
                 className="mx-auto w-full max-w-xs object-cover sm:max-w-sm"
               />
               <div className="bubbly-card p-4 text-center text-base text-slate-700 sm:text-lg">
-                I will always love you no matter what
+                I will always love you no matter what 💌
               </div>
               <div className="bubbly-card p-4 text-center text-base text-slate-700 sm:text-lg">
-                You are the best part of my life
+                You are the best part of my life 🫶
               </div>
             </div>
 
@@ -91,10 +95,10 @@ function App() {
                 className="mx-auto h-auto w-40 object-cover sm:w-52"
               />
               <div className="bubbly-card p-4 text-center text-base text-slate-700 sm:text-lg">
-                You will forever be my only option.
+                You will forever be my only option. 💓
               </div>
               <div className="bubbly-card p-4 text-center text-base text-slate-700 sm:text-lg">
-                I can&apos;t imagine a life without you!!!
+                I can&apos;t imagine a life without you!!! 🥺
               </div>
             </div>
           </div>
@@ -119,14 +123,14 @@ function App() {
 
           <div className="bubbly-card bg-amber-50/90 p-4 sm:p-6 md:p-8">
             <div className="space-y-1 text-base leading-relaxed text-slate-700 sm:text-lg md:text-xl">
-              <p>Happiest birthday To my Aruuu</p>
+              <p>Happiest birthday To my favv person 😙😽 </p>
               <p>I'm so happpy for ur special day, </p>
               <p>so lucky to have you in my life,</p>
-              <p>aapko nhi pta mai kitna khuush hhuuu..aapke special day per mai aapke sath hu</p>
-              <p>I love you I love you I love you so much </p>
+              <p>aapko nhi pta mai kitna khuush hhuuu..aapke special day per mai aapke sath hu 🥹🥹</p>
+              <p>I love you I love you I love you so much 💝💖</p>
               <p>I know I tell you this everyday but you are</p>
               <p>literally the most beautiful girl I've ever seen</p>
-              <p>I know. Anyways, I love you Bacha</p>
+              <p>I know. Anyways, I love you Bacha 🥹</p>
               <p className="pt-3 text-right font-semibold text-pink-600">Always, Forever</p>
             </div>
           </div>
@@ -170,16 +174,26 @@ function App() {
 
             <div className="bubbly-card p-4 text-center">
               <p className="text-sm leading-relaxed text-slate-700 sm:text-base">
-                Jii aapke itne saare cutu cutu photos the , ki mujhe sochne mai itna time lag gya ki mai konsi
-                photos daluu yaha per dammm!!aapke pretty smile per toh mai fidaaa huuu,like itna cute koi kaise ho skta h aruuuu aaapko dekhne ke bad lagta h
-                kaash ye ladki sirf mere passs rahe , the only wish i have from god is that i want to be with you. Aapke saath rekr
-                aesa lagta h bs this is the best thing happening with me. I just want to hug you so tight and never let you go.
-                I'm so sryy last year aapke saath jo bhee kiya maine. I promise i will never repeat those mistakes again.
-                Now I just want to make you happy and I will do everything to make you happy. Apko khush dekh kr mai bhee khush hojatahuu bhautt
-                ye chota sa cute sa website bana kr aapko dhikhane ke liye bhaut excited thaa. Lga nhi tha cute banjayega thoda hehehe.mere mnn mai bs yahi chal rha h kya aapko mai station per hug krpaunga ya nhi bhaut jyada excited hu
-                I hope maine aapko bhaut jorr se hug kiya hogaaa AAHHH MMUUAAHH. But sach btau aapse durr rehkr mujhe bilkul achaa nhi lagta haii rozz aapko bhaut miss krta huu mnnn krta hai bs aapke baho mai rahuuu .
+                Jii aapke itne saare cutu cutu photos the 🥹🥹🥹, ki mujhe sochne mai itna time lag gya ki mai konsi
+                photos daluu yaha per dammm 🤗🤗!! aapke pretty smile per toh mai fidaaa huuu,like itna cute koi kaise ho skta h aruuuu 😙😙😙 aaapko dekhne ke bad lagta h
+                kaash ye ladki sirf mere passs rahe , the only wish i have from god is that i want to be with you 🧿🧿💞💓. Aapke saath rekr
+                aesa lagta h bs this is the best thing happening with me. I just want to hug you so tight and never let you go.🫂🤗
+                <br />
+                <br />
+                I'm so sryy last year aapke saath jo bhee kiya maine 🥹🥹. I promise i will never repeat those mistakes again .Apko chord kr abh kahi nhi jaungaa..
+                Now I just want to make you happy and I will do everything to make you happy 🥹🥹. Apko khush dekh kr mai bhee khush hojatahuu bhautt
+                ye chota sa cute sa website bana kr aapko dhikhane ke liye bhaut excited thaa. Lga nhi tha cute banjayega thoda hehehe.🤗😽😙💖💝💓🧿
+                <br />
+                <br />
+                Mere mnn mai bs yahi chal rha h kya aapko mai station per hug krpaunga ya nhi bhaut jyada excited hu😗😁😁🤗☺️😚
+                I hope maine aapko bhaut jorr se hug kiya hogaaa AAHHH MMUUAAHH 😗😙😽😘. But sach btau aapse durr rehkr mujhe bilkul achaa nhi lagta haii rozz aapko bhaut miss krta huu mnnn krta hai bs aapke baho mai rahuuu or rouu 🥹🥹.
                 I m very lucky ki aap mere life mai ho. ARUU ukw aap bhaut jyada acche ho bhautt mtlb bhauttt like mai express nhi kr skta aap kitne acche ho.
-
+                Aap mujh se bhaut pyr krte ho.. mera care krte ho.. mera dhyaan rakte ho..🥹🥹..aap hee ho jo mujhe sabse jyada understand krta hai😗🥹
+                Life time ka best decision tha mera faridabad aane ka hehehe MMUUAHH 🧿😚😙🫶💓🥹💖💞🌟🥰😘....
+                <br />
+                <br />
+                Aapse ek din baat nhi krta hu toh idk mujhe kya hojata haii.. ek din bhee raha nhi jata aapse bina baat kiyee 🥹🥹
+                I just want to be with you always and forever 🥹🥹
 
 
 
@@ -220,9 +234,9 @@ function App() {
         <FloatingDecorations />
         <div className="relative z-10 mx-auto flex w-full max-w-5xl flex-col items-center gap-6 text-center">
           <h1 className="text-3xl font-bold text-pink-600 sm:text-4xl md:text-5xl">
-            Open you presents aruu MMUUAAHH !!
+            Open you presents aruu MMUUAAHH 🌟!!
           </h1>
-          <p className="text-lg text-pink-500 sm:text-xl md:text-2xl">Hope you like them hehe</p>
+          <p className="text-lg text-pink-500 sm:text-xl md:text-2xl">Hope you like them hehe 😚</p>
 
           <div className="grid w-full grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
             <button className="group rounded-2xl bg-white p-3 shadow-md" onClick={() => setShowCakePage(true)}>
@@ -281,7 +295,7 @@ function App() {
               className="rounded-full bg-pink-600 px-8 py-3 text-base font-semibold text-white shadow-lg transition hover:bg-pink-700 active:scale-95"
               onClick={() => setShowThirdPage(true)}
             >
-              Click me Aruu
+              Click me Aruu 😘
             </button>
             <button
               className="rounded-full border-2 border-pink-600 px-8 py-2 text-sm font-semibold text-pink-600 transition hover:bg-pink-50 active:scale-95"
@@ -323,7 +337,7 @@ function App() {
           </div>
 
           <div className="mx-auto flex w-full max-w-sm flex-col items-center bubbly-card p-5 sm:p-6">
-            <h2 className="mb-4 text-center text-2xl font-bold text-slate-700 sm:text-3xl">Enter a passcode</h2>
+            <h2 className="mb-4 text-center text-2xl font-bold text-slate-700 sm:text-3xl">Enter a passcode 😚</h2>
 
             <div className="mb-6 flex gap-2 sm:gap-3">
               {[...Array(4)].map((_, i) => (
@@ -356,7 +370,7 @@ function App() {
                 Next ?
               </button>
             ) : (
-              <p className="mt-5 text-center text-sm text-slate-600 sm:text-base">hint- its our anniversary</p>
+              <p className="mt-5 text-center text-sm text-slate-600 sm:text-base">hint- its our anniversary💓</p>
             )}
           </div>
         </div>
