@@ -194,6 +194,14 @@ function App() {
                 <br />
                 Aapse ek din baat nhi krta hu toh idk mujhe kya hojata haii.. ek din bhee raha nhi jata aapse bina baat kiyee 🥹🥹
                 I just want to be with you always and forever 🥹🥹......
+                 I hope aapke birthday per gifts milne wale honge 😋😋😋 kya pta shyd aapko mil gye ho abhee takk..if abhee apko saare gifts mil chuke ho toh aap abhee khol skte ho😙🤗🫶💓😚💞
+                 <br />
+                 <br />
+                 aapke  liye lines abh yaha tak hi thiii..😋😋
+                 last but not the least ARU i really love youu so much..happiest birthday again from your pati 😚🥹🫶🤗😚..hamesha aap khushh raho and masti kroo..😘😘
+                 and abh se no crying and sadness .. aapke face per sirf smile honi chahiye abh se samjhe bacha ..abh agr aap  rote hue diikhe dekh fir aap mujh se baat mt krlena samjheee 😭😭😭😭
+                 I LOVE YOU ARUU!!!!! 😚🥹🫶🤗😚
+                
 
 
 
@@ -213,9 +221,10 @@ function App() {
 
           <div className="grid w-full max-w-4xl grid-cols-2 gap-4 sm:grid-cols-3">
             <video src="/kiss.mp4" className="w-full object-cover" autoPlay loop muted playsInline />
-            <img src="/pic61.png" alt="Hearts" className="w-full object-cover" />
+            <img src="/pic61.png" alt="Hearts" className="w-full object-cover absolute right-2 bottom-20 w-24 object-cover sm:w-44 lg:w-58" />
             <img src="/pic65.png" alt="Cute Decoration" className="col-span-2 w-full object-cover sm:col-span-1" />
-            <img src="/pic69.png" alt="Cute Anime Girl" className="absolute right-2 bottom-1/4 w-48 object-cover sm:w-65 lg:w-78" />
+            <img src="/pic69.png" alt="Cute Anime Girl" className="absolute right-2 top-50 w-48 object-cover sm:w-65 lg:w-78" />
+            <img src="/pinklast.png" alt="Cute Anime Girl" className="absolute left-2 bottom-20 w-36 object-cover sm:w-65 lg:w-78" />
 
           </div>
 
