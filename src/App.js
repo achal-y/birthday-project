@@ -24,7 +24,7 @@ function App() {
 
   useEffect(() => {
     setTimeout(() => {
-      alert("Tap on our cute picture to play the song 🎶");
+      alert("AARUUUUUU Tap on our cute picture to play the song 🎶");
     }, 500);
 
     const handleInteract = () => {
